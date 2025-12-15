@@ -19,7 +19,7 @@ const achievements = [
   },
   {
     text: '2024',
-    class: 'text-yellow-500 w-6 h-6',
+    class: 'i-mdi:trophy text-yellow-500 w-6 h-6',
     description: `Realschulabschluss mit Note 2,5 in Hessen`
   },
 ]
