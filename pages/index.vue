@@ -10,7 +10,7 @@ useHead({
 <section class="content">
   <div class="container mx-auto">
     <div class="prose">
-      <h1 class="text-center">Hallo, ich bin Henry Probst</h1>
+      <h1 class="text-center">Über mich</h1>
       <p>
         Mein Name ist Henry Probst, ich bin 17 Jahre alt und absolviere derzeit meine duale Ausbildung zum IT-Systemelektroniker bei Technogroup/Evernex und besuche Berufsschulunterricht an der Friedrich-Ebert-Schule in Wiesbaden.
       </p>
