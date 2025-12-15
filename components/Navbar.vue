@@ -39,10 +39,10 @@ const toggleDark = useToggle(isDark)
           <nuxt-link to="/" class="navbar__link">Über mich</nuxt-link>
         </li>
         <li class="navbar__item">
-          <nuxt-link to="/achievements" class="navbar__link">Erfolge</nuxt-link>
+          <nuxt-link to="/erfolge" class="navbar__link">Erfolge</nuxt-link>
         </li>
         <li class="navbar__item">
-          <nuxt-link to="/contact" class="navbar__link">Kontakt</nuxt-link>
+          <nuxt-link to="/kontakt" class="navbar__link">Kontakt</nuxt-link>
         </li>
         <li class="navbar__item ">
           <a href="#" class="navbar__link | p-0! hidden md:block" @click.prevent="toggleDark()">
