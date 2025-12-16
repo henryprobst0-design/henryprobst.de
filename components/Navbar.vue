@@ -25,8 +25,8 @@ const toggleDark = useToggle(isDark)
       </h3>
       <div class='w-1/3 flex justify-end gap-3 items-center'>
         <a href="#" class="navbar__link | p-2! md:hidden block" @click.prevent="toggleDark()">
-          <div class="text-xl i-mdi-weather-night" v-if="isDark == true"></div>
-          <div class="text-xl i-mdi-lightbulb-on-outline" v-else></div>
+          <div class="text-xl i-mdi-theme-light-dark" v-if="isDark == true"></div>
+          <div class="text-xl i-mdi-theme-light-dark" v-else></div>
         </a>
         <button class="p-2 bg-transparent border-none md:hidden inline-block" type="button" name="toggle-menu" aria-label="Toggle Menu" @click="isNavbarOpen=!isNavbarOpen">
           <div class="i-mdi-menu text-xl"></div>
@@ -46,8 +46,8 @@ const toggleDark = useToggle(isDark)
         </li>
         <li class="navbar__item ">
           <a href="#" class="navbar__link | p-0! hidden md:block" @click.prevent="toggleDark()">
-            <div class="i-mdi-weather-night" v-if="isDark == true"></div>
-            <div class="i-mdi-lightbulb-on-outline" v-else></div>
+            <div class="i-mdi-theme-light-dark" v-if="isDark == true"></div>
+            <div class="i-mdi-theme-light-dark" v-else></div>
           </a>
         </li>
       </ul>
