@@ -36,3 +36,39 @@ useHead({
     </div>
   </div>
 </template>
+
+      <style scoped>
+.profile-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts {
+  width: 300px;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.gmail {
+  background-color: #ef4444;
+}
+
+.linkedin {
+  background-color: #3b82f6;
+}
+</style>
+
