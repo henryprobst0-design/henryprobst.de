@@ -13,7 +13,7 @@ useHead({
       <h1 class="text-center">Kontakt</h1>
 
       <center>
-<img src="/assets/henryprobst.jpg" alt="enry Probst">
+<img src="/assets/henryprobst.jpg" alt="Henry Probst">
 </center>
 
       <br>
