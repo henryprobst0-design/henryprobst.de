@@ -12,7 +12,7 @@ useHead({
     <div class="prose">
       <h1 class="text-center">Kontakt</h1>
 
-      <img src="https://i.postimg.cc/P5RY7Xyn/1760027710905-(1).jpg" alt="Henry Probst">
+      <img src="https://i.postimg.cc/P5RY7Xyn/1760027710905-(1).jpg" alt="Henry Probst"> style="vertical-align: middle;"/>
 
       <div class="cards max-w-[300px] mx-auto">
         <div class="contact | flex items-center gap-3 mb-5">
