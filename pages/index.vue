@@ -18,7 +18,7 @@ useHead({
       <p></p>
         <p>Zu meinen Tätigkeiten gehört die Arbeit an professionellen Serversystemen wie HP ProLiant und Dell PowerEdge, sowohl bei der Fehlerdiagnose als auch bei Wartungs- und Austauschprozessen direkt beim Kunden.<p>
       <p></p>
-        <p>Dabei lege ich großen Wert auf zuverlässige Lösungen, saubere Dokumentation und einen professionellen Umgang mit Kunden.<p>
+        <p>Dabei lege ich großen Wert auf zuverlässige Lösungen, saubere Dokumentation und einen professionellen Umgang mit Kunden.
       </p>
       <hr>
       <p>Auch privat bin ich mit großer Begeisterung in der IT-Welt unterwegs.
