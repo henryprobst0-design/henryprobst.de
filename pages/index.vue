@@ -16,9 +16,7 @@ useHead({
       </p>
       <p>In meinem beruflichen Alltag beschäftige ich mich intensiv mit Troubleshooting, Hardwarewartung sowie dem Kundensupport im Serverumfeld.</p>
       <p></p>
-        Zu meinen Tätigkeiten gehört die Arbeit an professionellen Serversystemen wie HP
-      ProLiant und Dell PowerEdge, sowohl bei der Fehlerdiagnose als auch bei Wartungs-
-      und Austauschprozessen direkt beim Kunden.
+        Zu meinen Tätigkeiten gehört die Arbeit an professionellen Serversystemen wie HP ProLiant und Dell PowerEdge, sowohl bei der Fehlerdiagnose als auch bei Wartungs- und Austauschprozessen direkt beim Kunden.
       <p>
         Dabei lege ich großen Wert auf zuverlässige Lösungen, saubere Dokumentation und einen professionellen Umgang mit Kunden.
       </p>
