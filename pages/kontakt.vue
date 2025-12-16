@@ -18,8 +18,7 @@ useHead({
 
       <br>
 
-     <center>
-       <div class="cards max-w-[300px] mx-auto">
+      <div class="cards max-w-[300px] mx-auto">
         <div class="contact | flex items-center">
           <div class="i-mdi-gmail w-6 h-6 bg-red-500"></div>
           <a href="mailto:kontakt@henryprobst.de">kontakt@henryprobst.de</a>
@@ -33,4 +32,3 @@ useHead({
   </div>
 </section>
 </template>
-</center>
