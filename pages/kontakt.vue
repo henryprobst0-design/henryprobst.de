@@ -18,32 +18,17 @@ useHead({
 
       <br>
 
-<template>
-  <section class="flex justify-center py-10">
-    <div class="cards max-w-[300px] w-full space-y-4">
-      <div class="contact flex items-center gap-2 p-2 bg-white rounded shadow">
-        <div class="i-mdi-gmail w-6 h-6 bg-red-500"></div>
-        <a href="mailto:kontakt@henryprobst.de" class="text-gray-800 hover:underline">
-          kontakt@henryprobst.de
-        </a>
-      </div>
-      <div class="contact flex items-center gap-2 p-2 bg-white rounded shadow">
-        <div class="i-mdi-linkedin w-6 h-6 bg-blue-500"></div>
-        <a href="https://linkedin.com/in/henry-probst-1b8420389" target="_blank" class="text-gray-800 hover:underline">
-          Henry Probst
-        </a>
+      <div class="cards max-w-[300px] mx-auto">
+        <div class="contact | flex items-center">
+          <div class="i-mdi-gmail w-6 h-6 bg-red-500"></div>
+          <a href="mailto:kontakt@henryprobst.de">kontakt@henryprobst.de</a>
+        </div>
+        <div class="contact | flex items-center">
+          <div class="i-mdi-linkedin w-6 h-6 bg-blue-500"></div>
+          <a href="https://linkedin.com/in/henry-probst-1b8420389" target="_blank">Henry Probst</a>
+        </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 </template>
-
-<script setup>
-// Kein zusätzlicher Code nötig, alles statisch
-</script>
-
-<style scoped>
-/* optional: eigene Styles, falls die Icons nicht angezeigt werden */
-</style>
-
-
-
