@@ -18,8 +18,8 @@ useHead({
 
       <br>
 
-<section class="py-10">
-  <div class="cards max-w-[300px] mx-auto space-y-4">
+<section class="flex justify-center py-10">
+  <div class="cards max-w-[300px] w-full space-y-4">
     <div class="contact flex items-center gap-2 p-2 bg-white rounded shadow">
       <div class="i-mdi-gmail w-6 h-6 bg-red-500"></div>
       <a href="mailto:kontakt@henryprobst.de" class="text-gray-800 hover:underline">kontakt@henryprobst.de</a>
@@ -30,4 +30,5 @@ useHead({
     </div>
   </div>
 </section>
+
 
