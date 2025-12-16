@@ -16,6 +16,8 @@ useHead({
 <img src="https://i.postimg.cc/P5RY7Xyn/1760027710905-(1).jpg" alt="enry Probst">
 </center>
 
+      <br>
+
       <div class="cards max-w-[300px] mx-auto">
         <div class="contact | flex items-center gap-3 mb-5">
           <div class="i-mdi-gmail w-6 h-6 bg-red-500"></div>
