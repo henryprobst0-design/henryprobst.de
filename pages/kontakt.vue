@@ -12,24 +12,27 @@ useHead({
     <div class="prose">
       <h1 class="text-center">Kontakt</h1>
 
-<div class="flex flex-col items-center gap-4">
-  <img src="/assets/henryprobst.jpg" alt="Henry Probst" class="mx-auto">
+<template>
+  <div class="profile-wrapper">
+    <img src="/assets/henryprobst.jpg" alt="Henry Probst" />
 
-  <div class="cards max-w-[300px] w-full">
-    <div class="contact flex items-center justify-center gap-2">
-      <div class="i-mdi-gmail w-6 h-6 bg-red-500"></div>
-      <a href="mailto:kontakt@henryprobst.de">
-        kontakt@henryprobst.de
-      </a>
-    </div>
+    <div class="contacts">
+      <div class="contact">
+        <div class="i-mdi-gmail icon gmail"></div>
+        <a href="mailto:kontakt@henryprobst.de">
+          kontakt@henryprobst.de
+        </a>
+      </div>
 
-    <div class="contact flex items-center justify-center gap-2">
-      <div class="i-mdi-linkedin w-6 h-6 bg-blue-500"></div>
-      <a href="https://linkedin.com/in/henry-probst-1b8420389" target="_blank">
-        Henry Probst
-      </a>
+      <div class="contact">
+        <div class="i-mdi-linkedin icon linkedin"></div>
+        <a
+          href="https://linkedin.com/in/henry-probst-1b8420389"
+          target="_blank"
+        >
+          Henry Probst
+        </a>
+      </div>
     </div>
   </div>
-</div>
-</section>
 </template>
