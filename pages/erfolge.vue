@@ -15,7 +15,7 @@ const achievements = [
   {
     text: '2025-vorraussichtlich 2028',
     class: 'i-mdi:trophy text-yellow-500 w-6 h-6',
-    description: `Berufsschulunterricht Friedrich-Ebert-Schule in Wiesbaden`
+    description: `Berufsschulunterricht an der Friedrich-Ebert-Schule in Wiesbaden`
   },
   {
     text: '2024',
