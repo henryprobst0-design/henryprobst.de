@@ -51,7 +51,7 @@ const toggleDark = useToggle(isDark)
         </li>
 
         <li class="navbar__item hidden md:block">
-          <a href="#" class="navbar__link p-0!" @click.prevent="toggleDark()">
+          <a href="#" class="navbar__link p-0!" @click.prevent="toggleDark() >
             <div class="i-mdi-theme-light-dark text-xl"></div>
           </a>
         </li>
