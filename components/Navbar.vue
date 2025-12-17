@@ -49,9 +49,8 @@ const toggleDark = useToggle(isDark)
             <div class="i-mdi-theme-light-dark" v-if="isDark == true"></div>
             <div class="i-mdi-theme-light-dark" v-else></div>
             
-                    <li class="navbar__item ">
-          <a href="english" class="navbar__link | p-0! hidden md:block"
-            <div class="i-mdi-translate"></div>
+        <li class="navbar__item">
+          <nuxt-link to="/english" class="i-mdi-translate">English</nuxt-link>
           </a>
         </li>
       </ul>
