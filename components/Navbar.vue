@@ -46,6 +46,8 @@ const toggleDark = useToggle(isDark)
         </li>
         <li class="navbar__item ">
           <a href="#" class="navbar__link | p-0! hidden md:block" @click.prevent="toggleDark()">
+        </li>
+        <li class="navbar__item">
             <div class="i-mdi-theme-light-dark" v-if="isDark == true"></div>
             <div class="i-mdi-theme-light-dark" v-else></div>
          <button class="p-2 bg-transparent border-none md:hidden inline-block" type="button" name="toggle-menu" aria-label="Toggle Menu" @click="isNavbarOpen=!isNavbarOpen">
