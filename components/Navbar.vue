@@ -33,40 +33,25 @@ const toggleDark = useToggle(isDark)
         </button>
       </div>
     </div>
-        <div class="navbar__menu">
-
-  <button
-    class="md:hidden p-2 text-gray-900 dark:text-gray-100"
-    @click="isNavbarOpen = !isNavbarOpen"
-  >
-    <div class="i-mdi-menu text-2xl"></div>
-  </button>
-
-
-  <ul
-    class="flex list-none gap-5 flex-col md:flex-row p-0 text-gray-900 dark:text-gray-100"
-    v-show="isNavbarOpen"
-  >
-    <li class="navbar__item">
-      <nuxt-link to="/" class="navbar__link">Über mich</nuxt-link>
-    </li>
-
-    <li class="navbar__item">
-      <nuxt-link to="/erfolge" class="navbar__link">Erfolge</nuxt-link>
-    </li>
-
-    <li class="navbar__item">
-      <nuxt-link to="/kontakt" class="navbar__link">Kontakt</nuxt-link>
-    </li>
-
-
-    <li class="navbar__item">
-      <a href="#" class="navbar__link p-0!" @click.prevent="toggleDark()">
-        <div class="i-mdi-theme-light-dark text-xl"></div>
-      </a>
-    </li>
-  </ul>
-</div>
+    <div class="navbar__menu">
+      <ul class="flex decoration-none list-none gap-5 justify-center p-0 flex-col md:flex-row text-right pr-8 lg:p-0 lg:text-center"  v-show="isNavbarOpen">
+        <li class="navbar__item">
+          <nuxt-link to="/" class="navbar__link">Über mich</nuxt-link>
+        </li>
+        <li class="navbar__item">
+          <nuxt-link to="/erfolge" class="navbar__link">Erfolge</nuxt-link>
+        </li>
+        <li class="navbar__item">
+          <nuxt-link to="/kontakt" class="navbar__link">Kontakt</nuxt-link>
+        </li>
+        <li class="navbar__item ">
+          <a href="#" class="navbar__link | p-0! hidden md:block" @click.prevent="toggleDark()">
+            <div class="i-mdi-theme-light-dark" v-if="isDark == true"></div>
+            <div class="i-mdi-theme-light-dark" v-else></div>
+          </a>
+        </li>
+      </ul>
+    </div>
   </nav>
 </template>
 <style lang="postcss">
