@@ -34,13 +34,9 @@ const toggleDark = useToggle(isDark)
       </div>
     </div>
         <div class="navbar__menu">
-      <ul
-        class="flex decoration-none list-none gap-5 justify-center p-0 flex-col md:flex-row
-             text-right pr-8 lg:p-0 lg:text-center
-             text-gray-900 dark:text-gray-100"
-        v-show="isNavbarOpen"
-      >
-
+        <button class="md:hidden p-2 text-gray-900 dark:text-gray-100" @click="isNavbarOpen = !isNavbarOpen" >
+    <div class="i-mdi-menu text-2xl"></div>
+      </button>
         <li class="navbar__item">
           <nuxt-link to="/" class="navbar__link">Über mich</nuxt-link>
         </li>
