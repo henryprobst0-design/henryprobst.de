@@ -33,26 +33,26 @@ const toggleDark = useToggle(isDark)
         </button>
       </div>
     </div>
-    <div class="navbar__menu">
-      <ul class="flex decoration-none list-none gap-5 justify-center p-0 flex-col md:flex-row text-right pr-8 lg:p-0 lg:text-center"  v-show="isNavbarOpen">
+        <div class="navbar__menu">
+      <ul
+        class="flex decoration-none list-none gap-5 justify-center p-0 flex-col md:flex-row text-right pr-8 lg:p-0 lg:text-center"
+        v-show="isNavbarOpen"
+      >
         <li class="navbar__item">
           <nuxt-link to="/" class="navbar__link">Über mich</nuxt-link>
         </li>
+
         <li class="navbar__item">
           <nuxt-link to="/erfolge" class="navbar__link">Erfolge</nuxt-link>
         </li>
+
         <li class="navbar__item">
           <nuxt-link to="/kontakt" class="navbar__link">Kontakt</nuxt-link>
         </li>
-        <li class="navbar__item ">
-          <a href="#" class="navbar__link | p-0! hidden md:block" @click.prevent="toggleDark()">
-        </li>
-        <li class="navbar__item">
-            <div class="i-mdi-theme-light-dark" v-if="isDark == true"></div>
-            <div class="i-mdi-theme-light-dark" v-else></div>
-         <button class="p-2 bg-transparent border-none md:hidden inline-block" type="button" name="toggle-menu" aria-label="Toggle Menu" @click="isNavbarOpen=!isNavbarOpen">
-          <div class="i-mdi-menu text-xl"></div>
-        </button>
+
+        <li class="navbar__item hidden md:block">
+          <a href="#" class="navbar__link p-0!" @click.prevent="toggleDark()">
+            <div class="i-mdi-theme-light-dark text-xl"></div>
           </a>
         </li>
       </ul>
