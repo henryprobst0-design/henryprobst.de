@@ -48,6 +48,10 @@ const toggleDark = useToggle(isDark)
           <a href="#" class="navbar__link | p-0! hidden md:block" @click.prevent="toggleDark()">
             <div class="i-mdi-theme-light-dark" v-if="isDark == true"></div>
             <div class="i-mdi-theme-light-dark" v-else></div>
+            
+                    <li class="navbar__item ">
+          <a href="english" class="navbar__link | p-0! hidden md:block"
+            <div class="i-mdi-translate"></div>
           </a>
         </li>
       </ul>
