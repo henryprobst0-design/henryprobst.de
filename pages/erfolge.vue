@@ -10,7 +10,7 @@ const achievements = [
   {
     text: '2025-vorraussichtlich 2028',
     class: 'i-mdi:trophy text-yellow-500 w-6 h-6',
-    description: `Duale Ausbildung als IT-Systemelektroniker bei Technogroup/Evernex in Hochheim`
+    description: `Duale Ausbildung als IT-Systemelektroniker bei Evernex in Hochheim`
   },
   {
     text: '2025-vorraussichtlich 2028',
