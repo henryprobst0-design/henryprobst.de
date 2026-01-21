@@ -14,7 +14,7 @@ useHead({
 
 <div class="flex justify-center my-8">
   <img
-    src="/assets/henryprobst.jpg"
+    src="/assets/IMG_2593.jpeg"
     alt="Henry Probst"
     class="max-w-[200px] w-full h-auto rounded-lg"
   >
