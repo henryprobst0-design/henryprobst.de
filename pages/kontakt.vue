@@ -12,13 +12,7 @@ useHead({
     <div class="prose">
       <h1 class="text-center">Kontakt</h1>
 
-<div class="flex justify-center my-8">
-  <img
-    src=""
-    alt=""
-    class="max-w-[200px] w-full h-auto rounded-lg"
-  >
-</div>
+
       
 <div class="cards max-w-[300px] mx-auto">
   <div class="contact | flex items-center justify-center mb-2">
